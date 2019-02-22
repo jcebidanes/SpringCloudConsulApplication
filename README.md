@@ -1,11 +1,12 @@
-# SpringCloudConsulStudentApplication
-School application Rest to auto discovery to Consul
+# Spring Cloud Consul Application
+
+Application Rest to auto discovery to Consul.
 
 ## Dependencies
 
 - Consul 1.4.x. Was used 1.4.2 during tests. [Consul page](https://www.consul.io/downloads.html)
-- Project SpringCloudConsulStudentApplication [Github Student](https://github.com/jcebidanes/SpringCloudConsulStudentApplication)
-- Project SpringCloudConsulSchoolApplication. [Github School](https://github.com/jcebidanes/SpringCloudConsulSchoolApplication)
+- Project SpringCloudConsulStudentApplication. 
+- Project SpringCloudConsulSchoolApplication.
 
 ## Steps
 
@@ -17,13 +18,15 @@ Check if Consul Server is running. Consul runs on default port and once agent st
 Open [http://localhost:8500/ui](http://localhost:8500/ui) and you should see a page with the service "  consul". 
 
 ---
+
 **NOTE:** 
 Keep the terminal open.
+
 ---
     
 Next step is to run both spring projects. Student first and School after.
 
-Look Consul agent page in your browser you should see 3 services. Consul, Student and School.
+Looking in Consul agent page in your browser you should see 3 services. Consul, Student and School.
 
 ## REST APIs
 
